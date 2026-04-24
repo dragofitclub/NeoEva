@@ -2063,7 +2063,7 @@ def sidebar_nav():
             (5, "Valoración"),
             (6, "Plan Personalizado"),
         ]:
-            if st.button(f"{i}. {titulo}", use_container_width=True):
+            if st.button(titulo, use_container_width=True):
                 go(to=i)
 
         st.markdown("---")
