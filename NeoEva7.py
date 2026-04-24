@@ -2024,13 +2024,6 @@ def pantalla6():
         for r in recomendaciones:
             st.write(r)
 
-    st.divider()
-
-    st.write(
-        "Aquí puedes ajustar las cantidades de productos para adaptar aún más tu programa a tus necesidades "
-        "y ver el total con los descuentos correspondientes."
-    )
-
     _render_personaliza_programa()
 
     st.divider()
